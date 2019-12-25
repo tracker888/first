@@ -1,0 +1,6 @@
+#你的 tomcat的镜像
+FROM tomcat
+#作者
+MAINTAINER wlm
+#放置到tomcat的webapps目录下
+COPY first.war /usr/local/tomcat/webapps
